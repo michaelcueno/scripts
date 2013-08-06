@@ -1,0 +1,15 @@
+#!/bin/sh
+#
+# usage: ./GetTemp <zipcode> <output file>
+#  ./GetTemp 60607 chicago.txt
+#
+
+/bin/rm -f $2
+
+wget -q -O temp.xml "http://apple.accuweather.com/adcbin/apple/Apple_Weather_Data.asp?zipcode=$1"
+
+gunzip -c temp.xml | grep -A2 Temperature | head -2 | tail -1 | awk '{print $1}' > $2
+#grep -A2 Temperature temp.xml | head -2 | tail -1 | awk '{print $1}' > $2
+
+/bin/rm -f temp.xml
+

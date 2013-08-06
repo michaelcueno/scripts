@@ -1,0 +1,3 @@
+exec keepnote ~/School/law-CS491/notebook &
+exec firefox https://piazza.com/class#spring2013/cs491/24 &
+cd ~/School/law-CS491

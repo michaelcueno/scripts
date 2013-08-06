@@ -1,0 +1,1 @@
+awk '{print $col}' col=$1 

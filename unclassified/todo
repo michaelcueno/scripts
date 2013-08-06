@@ -1,0 +1,3 @@
+cd /home/mike/.journal
+ruby newday.rb todotoday
+vim todotoday

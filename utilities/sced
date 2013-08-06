@@ -1,0 +1,9 @@
+F=`which $1 | awk '{print $1}'`
+if [[ -e $F ]]; then 
+	echo "editing '$F'"
+	vim $F
+else
+	vim ~/scripts/unclassified/$1
+fi 
+
+scup

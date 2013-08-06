@@ -1,0 +1,3 @@
+~/.spotify-notify/spotify-notify.py -s &
+spotify & 
+exit

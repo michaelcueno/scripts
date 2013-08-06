@@ -1,0 +1,1 @@
+ruby ~/workspace/tools/dict/dict.rb $1 | more

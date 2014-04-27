@@ -1,1 +1,1 @@
-chmod 755 -R /home/mike/scripts
+chmod -R 755 ~/scripts

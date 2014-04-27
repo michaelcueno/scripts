@@ -1,3 +1,3 @@
-cd /home/mike/.journal
+cd /Users/mcueno/.journal
 ruby newday.rb todotoday
 vim todotoday

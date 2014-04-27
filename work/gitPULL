@@ -1,0 +1,1 @@
+ls | while read d ; do ( echo $d; cd $d; git reset --hard; git pull; echo ) done

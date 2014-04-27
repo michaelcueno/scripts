@@ -1,0 +1,1 @@
+ls | while read d ; do ( echo $d; cd $d; git status; echo ) done

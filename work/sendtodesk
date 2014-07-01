@@ -1,1 +1,1 @@
-scp -r $1 mcueno@mcueno.desktop.amazon.com/workspace/
+scp -r $1 mcueno@mcueno.desktop.amazon.com:workspace/

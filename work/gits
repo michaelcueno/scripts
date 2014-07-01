@@ -1,1 +1,7 @@
-ls | while read d ; do ( echo $d; cd $d; git status; echo ) done
+ls | while read d ; do ( 
+cd $d; 
+echo "=================================================================="; 
+echo "                              ${d}";  
+echo "=================================================================="; 
+git status; 
+echo ) done

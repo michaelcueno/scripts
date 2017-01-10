@@ -1,1 +1,3 @@
-brazil-recursive-cmd brazil-build
+#! /bin/sh
+
+brazil-recursive-cmd 'brazil-build'

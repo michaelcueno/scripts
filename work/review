@@ -1,0 +1,12 @@
+#!/bin/bash 
+
+# merge squash a branch on top of current branch and then send a post-request 
+# for it, check it out as <BRANCH_NAME>_IN_REVIEW then reset mainline 
+
+git checkout mainline 
+git checkout -b $1_REVIEW
+git merge --squash $1 
+git add -A 
+git commit 
+post-review --parent mainline --note -o --no-review-guess 
+

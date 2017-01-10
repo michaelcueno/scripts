@@ -1,0 +1,6 @@
+#!/bin/sh
+echo "Are you sure? etc etc"
+read IDK
+rm -rf ~/Library/Keychains/*
+/usr/local/amazon/assistant/tools/usercerttool remove
+/usr/local/amazon/assistant/tools/usercerttool configure

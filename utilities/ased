@@ -1,0 +1,4 @@
+#!/bin/bash 
+
+vim ~/.oh-my-zsh/lib/aliases.zsh
+source ~/.zshrc

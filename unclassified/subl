@@ -1,1 +1,3 @@
-sudo ~/.dev/sublime/sublime 
+#!/bin/bash 
+
+~/.dev/sublime/subl $@

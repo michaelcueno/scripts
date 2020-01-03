@@ -1,9 +1,17 @@
+#!/bin/bash 
+
 F=`which $1 | awk '{print $1}'`
 if [[ -e $F ]]; then 
 	echo "editing '$F'"
 	vim $F
 else
-	vim ~/scripts/unclassified/$1
+        read -p "Create new script? " -n 1 -r
+        echo    # (optional) move to a new line
+        if [[ $REPLY =~ ^[Yy]$ ]]
+        then
+          echo "#!/bin/bash" > ~/scripts/unclassified/$1
+          vim ~/scripts/unclassified/$1
+        fi
 fi 
 
 scup

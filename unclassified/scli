@@ -1,0 +1,9 @@
+#!/bin/bash
+
+echo "Work" 
+ls -ltr ~/scripts/work 
+echo "utilities"
+ls -ltr ~/scripts/utils
+echo "unclassified"
+ls -ltr ~/scripts/unclassified 
+

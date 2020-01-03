@@ -1,4 +1,0 @@
-cd ~/workspace/android/androidPhone/src/MShopAndroidPHoneLib/
-bb
-cd ~/workspace/android/androidPhone/src/MShopAndroidPHoneApp/
-bb

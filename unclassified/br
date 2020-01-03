@@ -1,0 +1,3 @@
+#!/bin/bash 
+
+git for-each-ref --sort='committerdate' --format='%(refname)%09|%(committerdate)' refs/heads | sed -e 's-refs/heads/--' | column -t -s'|'

@@ -1,0 +1,11 @@
+#!/bin/bash
+
+SC_PATH=$(which $1)
+
+read -p "delete script ${SC_PATH}? " -n 1 -r 
+echo    
+if [[ $REPLY =~ ^[Yy]$ ]] 
+  then 
+  rm $SC_PATH;
+fi 
+

@@ -1,3 +1,4 @@
-cd /Users/mcueno/.journal
-ruby newday.rb todotoday
-vim todotoday
+#!/bin/bash 
+
+set -e
+vim /Users/$USER/.journal/todo 

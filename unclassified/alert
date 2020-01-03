@@ -1,0 +1,6 @@
+#!/bin/bash
+
+CONTENTS=$1
+
+osascript -e "display notification \"$CONTENTS\""
+

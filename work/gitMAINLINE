@@ -1,1 +1,0 @@
-ls | while read d ; do ( echo $d; cd $d; git checkout mainline; echo ) done

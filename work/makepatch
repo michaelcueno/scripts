@@ -1,1 +1,0 @@
-git diff $1 > ~/.git_patches/$2

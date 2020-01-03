@@ -1,2 +1,0 @@
-ls | while read d; do ( echo $d; cd $d; git pull; echo ) done
- 

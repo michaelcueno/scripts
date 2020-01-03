@@ -1,3 +1,0 @@
-#!/bin/bash
-
-brazil ws --remove -p $@

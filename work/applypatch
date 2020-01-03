@@ -1,1 +1,0 @@
-git apply < ~/.git_patches/$1
